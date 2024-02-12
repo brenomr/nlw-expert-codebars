@@ -36,7 +36,21 @@ O Expert Codebars é uma aplicação que permite ao usuário criar código de ba
 
 ## 🚀 Como executar
 
-- Em desenvolvimento.
+Este projeto foi desenvolvido utilizando o Python 3.11.6 é sugerido a mesma versão ou maior.
+As etapas estão sendo explicadas para executar o projeto em ambiente Linux.
+Digite todos os comandos direto no terminal.
+
+- Clone este repositório;
+- Na raiz do projero crie um ambiente virtual `python -m venv venv`;
+- Ative o ambiente virtual `source ./venv/bin/activate`;
+- Certifique-se de estar com o ambiente virtual ativo e estar na raiz do projeto, então digite `pip install -r ./requirements.txt`;
+- Para iniciar o servidor digite `python run.py` ele deverá executar em localhost:3000;
+- Utilizando Postman, Insomnia ou uma ferramenta de sua preferencia realize:
+  - POST em localhost:3000/create_tag com o seguinte body/json:
+  - `{ "product_code": "123.456.789-0" }`
+
+Se tudo ocorreu corretamente a etiqueta gerada deverá estar na raiz do projeto.
+
 
 ## 📄 Licença
 
